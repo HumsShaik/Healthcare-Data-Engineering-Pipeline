@@ -189,6 +189,8 @@ Visualizations:
 * Readmissions by Gender
 * Patient Encounters by Race
 
+![Executive Overview](powerbi/screenshots/executive_overview.png)
+
 ---
 
 ### Page 2 – Clinical Analysis
@@ -206,6 +208,8 @@ Visualizations:
 * Average Lab Procedures by Age Group
 * Average Medications by Gender
 
+![Clinical Analysis](powerbi/screenshots/clinical_analysis.png)
+
 ---
 
 ### Page 3 – Data Engineering Architecture
@@ -218,11 +222,6 @@ Components:
 * ETL Process Overview
 * Data Volume Analysis
 
----
-## PowerBI Dashboard
-
-![Executive Overview](powerbi/screenshots/executive_overview.png)
-![Clinical Analysis](powerbi/screenshots/clinical_analysis.png)
 ![Data Engineering Architecture](powerbi/screenshots/data_engineering_architecture.png)
 
 ---
