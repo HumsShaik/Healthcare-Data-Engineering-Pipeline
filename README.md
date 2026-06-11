@@ -208,14 +208,6 @@ Visualizations:
 
 ---
 
-## PowerBI Dashboard
-
-![Executive Overview](powerbi/screenshots/executive_overview.png)
-![Clinical Analysis](powerbi/screenshots/clinical_analysis.png)
-![Data Engineering Architecture](powerbi/screenshots/data_engineering_architecture.png)
-
----
-
 ### Page 3 – Data Engineering Architecture
 
 Components:
@@ -225,6 +217,13 @@ Components:
 * Warehouse Layer Summary
 * ETL Process Overview
 * Data Volume Analysis
+
+---
+## PowerBI Dashboard
+
+![Executive Overview](powerbi/screenshots/executive_overview.png)
+![Clinical Analysis](powerbi/screenshots/clinical_analysis.png)
+![Data Engineering Architecture](powerbi/screenshots/data_engineering_architecture.png)
 
 ---
 
@@ -251,56 +250,36 @@ Components:
 * Successfully transformed over 100K raw records into a compact reporting layer through ETL and aggregation processes.
 
 ---
-
 ## Project Structure
 
+```text
 healthcare-data-engineering-pipeline/
-
+│
 ├── data/
-
-│ └── raw/
-
-│ ├── diabetic_data.csv
-
-│ └── IDs_mapping.csv
-
+│   └── raw/
+│       ├── diabetic_data.csv
+│       └── IDs_mapping.csv
 │
-
 ├── sql/
-
-│ ├── 01_create_schemas.sql
-
-│ ├── 02_bronze_layer.sql
-
-│ ├── 03_load_silver_layer.sql
-
-│ ├── 04_gold_layer.sql
-
-│ └── 05_reporting_views.sql
-
+│   ├── 01_create_schemas.sql
+│   ├── 02_bronze_layer.sql
+│   ├── 03_load_silver_layer.sql
+│   ├── 04_gold_layer.sql
+│   ├── 05_add_avg_lab_procedures.sql
+│   ├── 06_reporting_views.sql
+│   └── 07_validation_queries.sql
 │
-
 ├── powerbi/
-
-│ ├── pbix/
-
-│ │ └── HealthcareDW_Dashboard.pbix
-
-│ │
-
-│ └── screenshots/
-
-│ ├── executive_overview.png
-
-│ ├── clinical_analysis.png
-
-│ └── data_engineering_architecture.png
-
+│   └── screenshots/
+│       ├── executive_overview.png
+│       ├── clinical_analysis.png
+│       └── data_engineering_architecture.png
 │
-
 ├── README.md
+├── .gitignore
+└── requirements.txt
+```
 
-└── .gitignore
 
 ---
 

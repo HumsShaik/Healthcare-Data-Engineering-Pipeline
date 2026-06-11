@@ -1,0 +1,6 @@
+SQL Server Express 2025
+SQL Server Management Studio (SSMS)
+Power BI Desktop
+Git
+GitHub
+
